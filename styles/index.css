@@ -3,7 +3,7 @@ body {
     font-size: 0.8em;
 }
 
-header, footer, section, article {
+header#general_header, footer, section, article {
     border: 1px solid grey;
     margin: 5px;
     margin-bottom: 15px;
@@ -11,7 +11,7 @@ header, footer, section, article {
     background-color: white;
 }
 
-header, footer {
+header#general_header, footer {
     color: white;
     background-color: #444;
     margin-bottom: 5px;
@@ -57,4 +57,18 @@ aside.right{
     display: inline-block;
     float: right;
     width: 20%;
+}
+
+h1#index_title{
+    font-family: FontAwesome;
+    font-size: 50px;
+    display: inline-block;
+    float: left;
+    margin: 20px;
+    width: 70%;
+}
+
+div#search_input{
+    display: inline-block;
+
 }

@@ -3,18 +3,18 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>UnBlog</title>
-    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="styles/index.css"/>
 </head>
 <body>
 
-    <header>
-        <div id="logo">
-            <h1>UnBlog</h1>
+    <?php include 'partials/_header.html' ?>
+
+    <header id="index_header">
+        <h1 id="index_title">Post Recientes</h1>
+
+        <div id="search_input">
+            Buscar <input type="text"/>
         </div>
-        <nav>
-            <a href="#">Login</a>
-            <a href="#">Contacto</a>
-        </nav>
 
         <div class='clear'></div>
     </header>
@@ -55,9 +55,7 @@
         </section>
     </aside>
 
-    <footer>
-        <p>&copy; 2015 UnBlog. Todos los derechos reservados.</p>
-    </footer>
+   <?php include 'partials/_footer.html' ?>
 
 </body>
 </html>
