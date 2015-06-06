@@ -23,6 +23,39 @@
         <aside class="left">
             <section>
                 <h2>Entradas</h2>
+
+                <table border="1">
+                    <tr>
+                        <td><a href="#">Enero 2014</a></td>
+                    </tr>
+                    <tr>
+                        <td>Febrero 2014</td>
+                    </tr>
+                    <tr>
+                        <td>Marzo 2014</td>
+                    </tr>
+                    <tr>
+                        <td>Abril 2014</td>
+                    </tr>
+                    <tr>
+                        <td>Mayo 2014</td>
+                    </tr>
+                    <tr>
+                        <td>Junio 2014</td>
+                    </tr>
+                    <tr>
+                        <td>Julio 2014</td>
+                    </tr>
+                    <tr>
+                        <td>Agosto 2014</td>
+                    </tr>
+                    <tr>
+                        <td>Septiembre 2014</td>
+                    </tr>
+                    <tr>
+                        <td>Octubre 2014</td>
+                    </tr>
+                </table>
             </section>
         </aside>
 
