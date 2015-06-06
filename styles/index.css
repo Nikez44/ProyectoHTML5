@@ -2,6 +2,12 @@ body {
     font-family: Verdana, sans-serif;
     font-size: 0.8em;
 }
+div#content{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
 
 header#general_header, footer, section, article {
     border: 1px solid grey;
@@ -19,6 +25,7 @@ header#general_header, footer {
 
 section {
     background-color: #ddd;
+    margin: 0;
 }
 
 #logo{
@@ -50,12 +57,13 @@ aside.left{
 
 section.center{
     display: inline-block;
+    float: left;
     width: 57%;
 }
 
 aside.right{
     display: inline-block;
-    float: right;
+    float: left;
     width: 20%;
 }
 
@@ -70,5 +78,4 @@ h1#index_title{
 
 div#search_input{
     display: inline-block;
-
 }
