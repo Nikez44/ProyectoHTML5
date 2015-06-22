@@ -1,0 +1,16 @@
+html, body{
+    height: 100%;
+}
+
+
+.LoginDiv{
+    display: block;
+    margin: 20px 0 20px 0 ;
+    height: 370px;
+    border: solid black;
+    width: 30%;
+}
+
+input{
+    margin: 10px 0 10px 0;
+}
