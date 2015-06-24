@@ -93,7 +93,7 @@ Layout styles
 	background-color: #fff;
 }
 
-.main, .aside
+.main, aside
 {
 	margin-bottom: 1em;
 }
@@ -235,7 +235,7 @@ Wide styles
 		margin-bottom: 1em;
 	}
 
-	.aside
+	aside
 	{
 		float: left;
 		width: 30%;
