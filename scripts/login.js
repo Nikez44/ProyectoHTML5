@@ -2,6 +2,9 @@
  * Created by hyuchiha on 27/04/15.
  */
 
+var user = "luffy";
+var password= "luffyluffy";
+
 function validar(){
     var usuario = document.getElementById("user").value;
     var contra = document.getElementById("password").value;
@@ -16,11 +19,24 @@ function validar(){
             document.fValida.password.focus();
             return false;
         }else{
-            return true;
+            if(canlogin(usuario, contra)){
+                alert("Bienvenido");
+                return true;
+            }else{
+                return false;
+            }
         }
     }
 
 
+}
+
+function canlogin(usuario, contra){
+    if(usuario == user && contra == password){
+        return true;
+    }else{
+        return false;
+    }
 }
 
 function vacio(word) {
