@@ -45,15 +45,6 @@ p
     line-height: 1.5;
 }
 
-hr
-{
-    height: 0;
-    margin-top: 1em;
-    margin-bottom: 2em;
-    border: 0;
-    border-top: 1px solid #ddd;
-}
-
 a:link { color: royalblue; }
 a:visited { color: purple; }
 a:focus { color: black; }
@@ -82,13 +73,6 @@ Layout styles
 .main
 {
     margin-bottom: 1em;
-}
-
-.middle{
-    text-align: center;
-    align-content: center;
-    width: 50px;
-    line-height: 50px;
 }
 
 /* -----------------------
@@ -212,14 +196,6 @@ Wide styles
     .header { padding: 1.5em 3em; }
     .nav-bar { padding: 1em 3em; }
 
-    .middle
-    {
-        float: left;
-        width: 55%;
-        margin-right: 5%;
-        margin-bottom: 1em;
-    }
-
     .nav li
     {
         display: inline;
@@ -234,14 +210,16 @@ Wide styles
     }
 }
 
-/***** Form*****/
 
-.LoginDiv{
+/**
+    Form styles
+**/
+
+.login-form{
     display: block;
-    margin: 20px 0 20px 0 ;
-    height: 370px;
-    border: solid black;
-    width: 30%;
+    text-align: center;
+    margin: 30px;
+    height: 280px;
 }
 
 input{
