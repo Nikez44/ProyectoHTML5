@@ -53,3 +53,15 @@ function validarForm(usuario, contra){
 
     return true;
 }
+
+function noEnviar(){
+    var nombre = document.getElementById("nombre").value;
+    var comentario = document.getElementById("comentario").value;
+
+    if(comentario != "" || nombre != ""){
+        alert("El correo ha sido enviado!");
+    }
+    nombre.value ="";
+    comentario.value="";
+    return false;
+}
