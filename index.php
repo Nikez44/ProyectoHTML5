@@ -14,7 +14,7 @@
             <h1 id="index_title">Post Recientes</h1>
 
             <div id="search_input">
-                Buscar <input type="text"/>
+                <input type="text" placeholder="Buscar"/>
             </div>
 
             <div class='clear'></div>
@@ -24,7 +24,7 @@
             <section>
                 <h2>Entradas</h2>
 
-                <table border="1">
+                <table>
                     <tr>
                         <td><a href="#">Enero 2014</a></td>
                     </tr>
@@ -60,10 +60,21 @@
         </aside>
 
         <section class="center">
-            <h2>News Section</h2>
-
             <article>
-                <h2>News Article</h2>
+                <header id="header_article">
+                    <div class="date">
+                        <div class="entry-date">
+                            <div class="number">23</div>
+                            <div class="month">JAN</div>
+                        </div>
+                    </div>
+                    <div id="bottomBlue">
+                        <hgroup>
+                            <h2 class="titleArticle">Lorem Ipsum</h2>
+                            <h3>By Author</h3>
+                        </hgroup>
+                    </div>
+                </header>
                 <p>Ipsum lurum hurum turum ipsum lurum hurum turum ipsum lurum hurum turum ipsum
                     lurum hurum turum.</p>
                 <p>Ipsum lurum hurum turum ipsum lurum hurum turum ipsum lurum hurum turum ipsum
