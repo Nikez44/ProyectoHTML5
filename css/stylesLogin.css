@@ -152,6 +152,23 @@ Single styles
     text-decoration: none;
 }
 
+.btn-regis{
+    color: #fff !important;
+    background-color: green;
+    display: inline-block;
+    padding: .2em .05em;
+    margin-bottom: 0;
+    font-weight: 400;
+    line-height: 1.2;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: .2em;
+    text-decoration: none;
+}
+
 .btn:hover
 {
     color: #fff !important;
