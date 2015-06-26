@@ -64,6 +64,10 @@ a:focus { color: black; }
 a:hover { color: green; }
 a:active { color: red; }
 
+.red{
+    color: red;
+}
+
 /* -----------------------
 Layout styles
 ------------------------*/
