@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="img/unblog.png">
     <link rel="stylesheet" href="css/stylesLogin.css"/>
+    <script type="text/javascript" src="scripts/login.js"></script>
 </head>
 <body>
 
@@ -30,11 +31,11 @@
     <section>
         <div class="content">
             <div class="container">
-                <div class="login-form">
+                <div class="login-form" onsubmit="return validar()">
                     <h1>INGRESA</h1>
-                    <form>
-                        <input type="text" id="user" placeholder="Nombre de usuario" required=""><br>
-                        <input type="password" id="password" placeholder="Contraseña" required=""><br>
+                    <form name="fValida">
+                        <input type="text" id="user" name="user" placeholder="Nombre de usuario" required=""><br>
+                        <input type="password" id="password" name="password" placeholder="Contraseña" required=""><br>
 
                         <input id="check" type="checkbox"><label for="check">Recuerdame</label><br>
 
