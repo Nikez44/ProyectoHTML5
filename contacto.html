@@ -7,6 +7,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="shortcut icon" href="img/unblog.png">
 		<link rel="stylesheet" href="css/stylesContacto.css">
+		<script type="text/javascript" src="scripts/login.js"></script>
 	</head>
 
 	<body>
@@ -21,7 +22,7 @@
 			<div class="container">
 				<ul class="nav">
                     <li><a href="show.html">Victor Sosa</a></li>
-                    <li><a href="about.html">Sobre Mí</a></li>
+                    <li><a href="about.html"><u>Sobre Mí</u></a></li>
                     <li><a href="contacto.html">Contacto</a></li>
                     <li><a href="login.html">Cerrar Sesión</a></li>
 				</ul>
@@ -41,12 +42,15 @@
 					</p>
 					<hr>
 
+					<form onsubmit="return noEnviar()">
 					<h3>¡Envíanos un Correo!</h3>
-					<h5>Nombre <input type="text" id="nombre" name="nombre" size="50"> </h5> 
-					<h5>Correo <input type="text" id="correo" name="correo" size="51"> </h5>
-					<h5>Mensaje</h5>
-					<textarea rows="10", cols="60" id="comentario"></textarea>
-					<p><a href="#" class="btn">Enviar</a></p>
+					<p><h6>los campos marcados con un asterisco son obligatorios</h6></p>
+					<h5>Nombre* <input type="text" id="nombre" name="nombre" size="49" required> </h5> 
+					<h5>Correo <input type="text" id="correo" name="correo" size="51"</h5>
+					<h5>Mensaje*</h5>
+					<textarea rows="10", cols="60" id="comentario" required></textarea>
+					<p><input type="submit" class="btn"></p>
+					</form>
 				</div>
 
 				<div class="aside">
