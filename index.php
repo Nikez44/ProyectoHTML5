@@ -55,6 +55,24 @@
                     <tr>
                         <td>Octubre 2014</td>
                     </tr>
+                    <tr>
+                        <td>Novimbre 2014</td>
+                    </tr>
+                    <tr>
+                        <td>Diciembre 2014</td>
+                    </tr>
+                    <tr>
+                        <td>Enero 2015</td>
+                    </tr>
+                    <tr>
+                        <td>Febreo 2015</td>
+                    </tr>
+                    <tr>
+                        <td>Marzo 2015</td>
+                    </tr>
+                    <tr>
+                        <td>Abril 2015</td>
+                    </tr>
                 </table>
             </section>
         </aside>
@@ -75,6 +93,12 @@
                         </hgroup>
                     </div>
                 </header>
+                
+                <div id="left-article">
+                    <figure>
+                        <img src="" alt=""/>
+                    </figure>
+                </div>
                 <p>Ipsum lurum hurum turum ipsum lurum hurum turum ipsum lurum hurum turum ipsum
                     lurum hurum turum.</p>
                 <p>Ipsum lurum hurum turum ipsum lurum hurum turum ipsum lurum hurum turum ipsum
