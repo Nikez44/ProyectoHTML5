@@ -23,6 +23,7 @@ function validar(){
                 alert("Bienvenido");
                 return true;
             }else{
+                alert("Usuario no valido");
                 return false;
             }
         }
@@ -32,11 +33,8 @@ function validar(){
 }
 
 function canlogin(usuario, contra){
-    if(usuario == user && contra == password){
-        return true;
-    }else{
-        return false;
-    }
+    return (usuario == user && contra == password);
+
 }
 
 function vacio(word) {
