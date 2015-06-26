@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Registrate</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="img/unblog.png">
+    <link rel="stylesheet" href="css/stylesLogin.css"/>
+    <script type="text/javascript" src="scripts/login.js"></script>
+</head>
+<body>
+
+<header class="header">
+    <div class="container">
+        <h1 class="header-heading"><a class="nounderline" href="index.html"><img class="img-responsive" src="img/unblogIcono.png">UnBlog</a></h1>
+    </div>
+</header>
+
+<nav class="nav-bar">
+    <div class="container">
+        <ul class="nav">
+            <li><a href="show.html">Victor Sosa</a></li>
+            <li><a href="about.html">Sobre Mí</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="login.html">Cerrar Sesión</a></li>
+        </ul>
+    </div>
+</nav>
+
+<section>
+    <div class="content">
+        <div class="container">
+            <div class="login-form" onsubmit="return validar()">
+                <h1>Registrate</h1>
+                <form name="fValida">
+                    <input type="text" id="name" name="name" placeholder="Nombre" required=""/> <br/>
+                    <input type="text" id="last_name" name="last_name" placeholder="Apellido" required/> <br/>
+                    <input type="email" id="email" name="email" placeholder="Email" required/> <br/>
+                    <input type="text" id="user_r" name="user_r" placeholder="Nombre de usuario" required><br>
+                    <input type="password" id="password" name="password" placeholder="Contraseña" required><br>
+
+                    <button type="submit">Registrarse!</button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+
+    <div class="container">
+        <details>
+            <summary> &copy; Copyright Equipo 13 - Diseño de páginas web con HTML 5, 2015 </summary>
+            <p>Todo el contenido y gráficos de este sitio web son
+                propiedad de la compañía.</p>
+        </details>
+    </div>
+
+</footer>
+
+</body>
+</html>
