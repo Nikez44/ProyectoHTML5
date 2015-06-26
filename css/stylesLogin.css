@@ -45,8 +45,12 @@ p
     line-height: 1.5;
 }
 
+.nounderline {
+    text-decoration: none;
+    color: #000000;
+}
+
 a:link { color: royalblue; }
-a:visited { color: purple; }
 a:focus { color: black; }
 a:hover { color: green; }
 a:active { color: red; }

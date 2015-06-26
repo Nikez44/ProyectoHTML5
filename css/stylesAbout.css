@@ -75,8 +75,12 @@ th, td
 	text-align: left;
 }
 
+.nounderline {
+    text-decoration: none;
+    color: #000000;
+}
+
 a:link { color: royalblue; }
-a:visited { color: purple; }
 a:focus { color: black; }
 a:hover { color: green; }
 a:active { color: red; }
@@ -92,6 +96,8 @@ Layout styles
 }
 
 .header-heading { margin: 0; }
+
+
 
 .nav-bar
 {
